@@ -1,0 +1,29 @@
+@import url("./styles/main.css");
+@import url("./styles/modal.css");
+
+:root {
+    --background-color: #ebf0fa;
+    --modal-background-color: #f0f4fc;
+    --text-color1: #1f4284;
+    --text-color2: #727272;
+    --primary-color: #244c98;
+    --inner-input-color: #d7e2f6;
+    --color-white: #fff;
+    --color-black: #000;
+
+    --shadow-color: rgba(0, 0, 0, 0.25);
+    --shadow: 0 4px 4px 0 var(--shadow-color);
+
+    --font-family: "Manrope", sans-serif;
+
+    --top-right-icon: url(./assets/icons/arrow-up-right.svg);
+    --close-icon: url(./assets/icons/close.svg);
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}

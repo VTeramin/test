@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <div>
-            <div>
-                <h1>Демо-версия</h1>
-                <p>За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</p>
-                <button>
-                    <p>Попробовать бесплатно</p>
-                    <div></div>
+    <main class="main">
+        <div class="main__demo">
+            <div class="demo__info">
+                <h1 class="info__title">Демо-версия</h1>
+                <p class="info__text">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</p>
+                <button class="info__free-try-button">
+                    Попробовать бесплатно
+                    <div class="free-try-button__icon"></div>
                 </button>
             </div>
-            <div>
-                <img src="./assets/imgs/demo-computer.png" alt="computer" width="910px" height="456px" />
+            <div class="demo__img-container">
+                <img src="./assets/imgs/demo-computer.png" alt="computer" width="910px" height="456px" class="demo__img"/>
             </div>
         </div>
-        <div>
-            <button>
-                <div></div>
-                <h2>Войти в систему</h2>
-                <input type="text" />
-                <input type="password" />
-                <input type="checkbox" name="remember" />
-                <label for="remember">Запомнить пароль</label>
-                <a>Восстановить</a>
-                <button>Войти</button>
-                <button>Зарегестрироваться</button>
-            </button>
+        <div class="main__modal">
+            <button class="modal__close-button"></button>
+            <h2 class="modal__title">Войти в систему</h2>
+            <input type="text" placeholder="Email/Телефон" class="modal__input"/>
+            <input type="password" placeholder="Пароль" class="modal__input"/>
+            <label class="modal__checkbox-label">
+                <input type="checkbox" name="remember" class="modal__checkbox"/>Запомнить пароль
+            </label>
+            <a class="modal__link">Восстановить</a>
+            <button class="modal__button button--filled">Войти</button>
+            <button class="modal__button">Зарегестрироваться</button>
         </div>
     </main>
 </body>
