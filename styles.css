@@ -16,8 +16,8 @@
 
     --font-family: "Manrope", sans-serif;
 
-    --top-right-icon: url(./assets/icons/arrow-up-right.svg);
-    --close-icon: url(./assets/icons/close.svg);
+    --top-right-icon: url(../assets/icons/arrow-up-right.svg);
+    --close-icon: url(../assets/icons/close.svg);
 }
 
 body {
