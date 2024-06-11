@@ -13,7 +13,7 @@
             <div class="demo__info">
                 <h1 class="info__title">Демо-версия</h1>
                 <p class="info__text">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</p>
-                <button class="info__free-try-button">
+                <button class="info__free-try-button" id="#free-try-button">
                     Попробовать бесплатно
                     <div class="free-try-button__icon"></div>
                 </button>
@@ -22,18 +22,19 @@
                 <img src="./assets/imgs/demo-computer.png" alt="computer" width="910px" height="456px" class="demo__img"/>
             </div>
         </div>
-        <div class="main__modal">
-            <button class="modal__close-button"></button>
+        <div class="main__modal" id="#modal">
+            <button class="modal__close-button" id="#close"></button>
             <h2 class="modal__title">Войти в систему</h2>
-            <input type="text" placeholder="Email/Телефон" class="modal__input"/>
-            <input type="password" placeholder="Пароль" class="modal__input"/>
+            <input type="text" placeholder="Email/Телефон" class="modal__input" id="#email"/>
+            <input type="password" placeholder="Пароль" class="modal__input" id="#password"/>
             <label class="modal__checkbox-label">
-                <input type="checkbox" name="remember" class="modal__checkbox"/>Запомнить пароль
+                <input type="checkbox" name="remember" class="modal__checkbox" id="#checkbox"/>Запомнить пароль
             </label>
             <a class="modal__link">Восстановить</a>
             <button class="modal__button button--filled">Войти</button>
             <button class="modal__button">Зарегестрироваться</button>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
